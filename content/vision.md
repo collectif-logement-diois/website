@@ -1,4 +1,0 @@
-+++
-title = "Vision"
-menu = "main"
-+++
