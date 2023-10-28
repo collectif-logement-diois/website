@@ -41,7 +41,7 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
 blog = "/:slug/"
-tags = "/blog/:slug"
+tags = "/articles/:slug"
 
 # Theme
 [module]
