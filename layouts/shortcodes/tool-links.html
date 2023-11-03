@@ -1,0 +1,16 @@
+{{range $.Page.Params.tools}}
+<article class="tool__wrapper">
+  <a href="{{.url}}" class="tool" target="_blank">
+    <img
+      class="tool__image"
+      width="120"
+      src="{{ .image }}"
+      alt="Logo de {{.title }}"
+    />
+    <div>
+      <h2 class="tool__title">{{ .title }}</h2>
+      <p class="tool__description">{{ .description }}</p>
+    </div>
+  </a>
+</article>
+{{end}}

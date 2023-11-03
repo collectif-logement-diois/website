@@ -5,3 +5,6 @@
 {{ with .Site.GetPage "/articles" }}
 <a href="{{ "articles" | relURL }}">Articles</a>
 {{ end }}
+{{ range .Site.Menus.tail }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
